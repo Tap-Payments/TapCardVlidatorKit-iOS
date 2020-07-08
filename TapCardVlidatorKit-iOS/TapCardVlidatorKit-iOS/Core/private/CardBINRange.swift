@@ -212,7 +212,7 @@ internal final class CardBINRange {
         CardBINRange(lowRange: "506099", highRange: "506198", lengths: [16, 19]                        , brand: .verve),
         CardBINRange(lowRange: "650002", highRange: "650027", lengths: [16, 19]                        , brand: .verve),
 
-        CardBINRange(lowRange: "5392"  , highRange: "5392"  , lengths: [16]                            , brand: .cardGuard)
+        CardBINRange(lowRange: "5392"  , highRange: "5392"  , lengths: [16]                            , brand: .cardGuard),
         
         CardBINRange(lowRange: "9"  , highRange: "9"  , lengths: [8]                                   , brand: .zain),
         CardBINRange(lowRange: "5"  , highRange: "5"  , lengths: [8]                                   , brand: .viva),
