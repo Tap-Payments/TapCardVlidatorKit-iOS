@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E839225926945FD400421E15 /* CardBrandWithSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839225826945FD400421E15 /* CardBrandWithSchemes.swift */; };
 		E8AFD98B24618EEF00005F44 /* TapCardVlidatorKit_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AFD98924618EEF00005F44 /* TapCardVlidatorKit_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AFD99724618F2400005F44 /* CardBINRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AFD99224618F2400005F44 /* CardBINRange.swift */; };
 		E8AFD99824618F2400005F44 /* CardValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AFD99324618F2400005F44 /* CardValidationState.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E839225826945FD400421E15 /* CardBrandWithSchemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBrandWithSchemes.swift; sourceTree = "<group>"; };
 		E8AFD98624618EEF00005F44 /* TapCardVlidatorKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapCardVlidatorKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AFD98924618EEF00005F44 /* TapCardVlidatorKit_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapCardVlidatorKit_iOS.h; sourceTree = "<group>"; };
 		E8AFD98A24618EEF00005F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				E8AFD99324618F2400005F44 /* CardValidationState.swift */,
 				E8AFD99424618F2400005F44 /* CardValidator.swift */,
 				E8AFD99624618F2400005F44 /* DefinedCardBrand.swift */,
+				E839225826945FD400421E15 /* CardBrandWithSchemes.swift */,
 			);
 			path = public;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				E8AFD99824618F2400005F44 /* CardValidationState.swift in Sources */,
 				E8AFD99724618F2400005F44 /* CardBINRange.swift in Sources */,
+				E839225926945FD400421E15 /* CardBrandWithSchemes.swift in Sources */,
 				E8AFD99B24618F2400005F44 /* DefinedCardBrand.swift in Sources */,
 				E8AFD99924618F2400005F44 /* CardValidator.swift in Sources */,
 				E8AFD99A24618F2400005F44 /* CardBrand.swift in Sources */,
