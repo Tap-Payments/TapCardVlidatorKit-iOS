@@ -4,6 +4,8 @@
 //
 //  Copyright © 2018 Tap Payments. All rights reserved.
 //
+
+import Foundation
 /// Card validator.
 public final class CardValidator {
     
@@ -77,8 +79,10 @@ public final class CardValidator {
                     return DefinedCardBrand(.valid, cardBrand)
                 }
                 else {
+                    // we need to change this to send invalid not incomplete in case we are at the maximum allowed length for the detected brand
+                    // and uet it is invalid not passing the test
                     
-                    return DefinedCardBrand(.incomplete, cardBrand)
+                    return DefinedCardBrand(number.count == binRange.cardNumberLengths.max()! ? .invalid : .incomplete, cardBrand)
                 }
             }else if cardBrand.brandSegmentIdentifier == "telecom" {
                 // Telecom is considered valid if starts with the range and have the correct length
