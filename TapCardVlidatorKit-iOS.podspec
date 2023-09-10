@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapCardVlidatorKit-iOS"
-  spec.version      = "1.0.21"
+  spec.version      = "1.0.22"
   spec.summary      = "Tap customised kit for validating card numbers."
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TapCardVlidatorKit-iOS/TapCardVlidatorKit-iOS/Core/**/*.{h,m,swift}"
+  spec.source_files  = "TapCardVlidatorKit-iOS/Sources/TapCardVlidatorKit-iOS/Core/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
